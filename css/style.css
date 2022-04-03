@@ -1,0 +1,243 @@
+/* global & imports */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&family=Quicksand:wght@400;500;600;700&family=Rozha+One&display=swap');
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Rozha One', serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.marginTop {
+    margin-top: 60px;
+}
+
+main {
+    scroll-margin-top: 60px;
+}
+
+/* header ----------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #E0C097;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 15px 4px #2d2424b2; 
+    box-shadow: 0px 0px 5px 3px #2d2424b2;
+}
+
+.header_nav {
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+
+}
+
+.header_nav nav {
+    float: right;
+}
+
+.header_nav nav ul {
+    font-size: 0;
+}
+
+.header_nav nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #5C3D2E;
+    font-family: 'Quicksand', sans-serif;
+    /* text-shadow: 0px 1px 2px #2D2424; */
+}
+
+.header_nav ul li:hover {
+    color: #E0C097;
+    background-color: #b85c38;
+}
+
+
+
+
+/* body -------------------------------------------------- */
+
+main {
+    width: 100%;
+}
+
+.mainBox {
+    width: 100%;
+
+}
+
+.bg {
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.separador {
+    height: 240px;
+}
+
+.content {
+    background-color: #E0C097;
+    min-height: 300px;
+    padding-bottom: 50px;
+}
+
+.bg_1 h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 150px;
+    color: #f0eae2;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 2px 2px 2px #2D2424c4;
+    line-height: 150%;
+    /* background-color: #43281881; */
+}
+
+.bg h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #f0eae2;
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 2px 2px 2px #2D2424c4;
+    text-align: center;
+    background-color: #43281881;
+    font-style: italic;
+    line-height: 150%;
+}
+
+.bg_1 {
+    height: 850px;
+    background-color: #5C3D2E;
+    background-image: url("../img/bg_choco2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.bg_2 {
+    background-color: #5C3D2E;
+    background-image: url("../img/bg_choco1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.bg_3 {
+    background-color: #5C3D2E;
+    background-image: url("../img/bg_choco3.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.content { 
+    color: #2D2424;
+}
+
+.content h3 {
+    font-family: 'Pacifico', cursive;
+    color: #B85C38;
+    font-size: 50px;
+    font-weight: 100;
+    text-indent: 20px;
+    text-shadow: 2px 2px 2px #2D2424c4;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* section 2 ------------------------------------ */
+
+.content_1 .wrapper .col_1 {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.content_1 .wrapper .col_2 {
+    width: 38%;
+    margin-top: 50px;
+    padding: 20px;
+    border: #2D2424 1px solid;
+    float: right;
+    background-color: #e4d5c8;
+}
+
+.content_1 .wrapper .col_2 img {
+    width: 100%;
+}
+
+/* section 2 ------------------------------------ */
+
+.content_2 .wrapper .col_1 {
+    width: 60%;
+    float: right;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.content_2 .wrapper .col_2 {
+    width: 38%;
+    margin-top: 50px;
+    padding: 20px;
+    border: #2D2424 1px solid;
+    float: left;
+    background-color: #e4d5c8;
+}
+
+.content_2 .wrapper .col_2 img {
+    width: 100%;
+}
+
+.wrapper .col_2:hover {
+    background-color: #c9b4a2;
+}
+
+/* fooooooooooooooooooooooooooooooooter */
+footer {
+    padding: 30px;
+    background-color: #2D2424;
+    width: 100%;
+    height: 100px;
+}
+
+.leyenda, .leyenda a {
+    color: #e4d5c8;
+    text-align: center;
+    font-style: italic;
+}
+
+.leyenda p {
+    margin-top: 40px;
+}
+
+.leyenda a {
+    padding: 0;
+}
