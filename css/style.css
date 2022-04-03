@@ -13,6 +13,11 @@ font-family: 'Rozha One', serif;
     box-sizing: border-box;
 }
 
+html {
+    background-image: url("../img/fancy-cushion.png");
+    background-attachment: fixed;
+}
+
 p {
     font-family: 'Merriweather', serif;
 }
@@ -240,4 +245,49 @@ footer {
 
 .leyenda a {
     padding: 0;
+}
+
+/* subPages -------------------------------------------- */
+
+main.subPage {
+    width: 70%;
+    margin: 100px auto 50px auto;
+    background-color: #E0C097;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+main.subPage h1 {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    color: #b85c38;
+    border-bottom: #2D2424 1px solid;
+}
+
+main.subPage p {
+    padding: 20px 0 0 0;
+    text-indent: 15px;
+}
+
+.zona_1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.zona_2 {
+    width:90%;
+    margin: 30px auto;
+}
+
+.subPage .zona_2 img {
+    background-color: #f0eae2;
+    padding: 20px;
+    margin: 0 10px;
+    width: 30%;
+    border: 1px solid #2D2424;
+}
+
+.subPage .zona_2 img:hover {
+    background-color: #c9b4a2;
 }
