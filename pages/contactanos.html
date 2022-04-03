@@ -26,24 +26,33 @@
     <div class="clear"></div>
 
     <main class="subPage">
-        <section>
+        <section class="contactanos">
             <div class="zona_1">
-                <h1>Nosotros</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi quibusdam ipsam dolores. Magni, commodi officiis a numquam quaerat quibusdam eveniet corrupti tempore possimus adipisci perferendis maiores nihil sint. Cumque.
-                Voluptas, odio saepe unde neque quod, fugiat in non iure consectetur similique repellendus. Debitis ipsa perspiciatis suscipit dignissimos facilis quo aperiam ea? Minima ipsa soluta mollitia nam. Ad, reprehenderit quasi.
-                Fugiat, accusamus, libero ipsam quod laudantium natus odio modi doloremque exercitationem, minima vitae eligendi rem voluptate quis reprehenderit unde expedita? Aspernatur itaque commodi impedit unde aut dolorum necessitatibus modi facere.
-                Alias architecto placeat distinctio. Voluptatem quia amet animi consectetur autem nesciunt, alias unde laborum praesentium aliquam exercitationem ex earum reprehenderit in iusto quod provident accusamus maiores laboriosam? Distinctio, delectus nesciunt.
-                Optio iste animi atque explicabo ut nemo quos sapiente, similique obcaecati mollitia quasi? Eaque ducimus repudiandae, accusamus libero dolore accusantium debitis ipsam odit mollitia voluptate optio quas corporis consequatur vero.</p>
+                <h1>Contáctanos</h1>
+                <h3>Envianos tu consulta, la responderemos lo antes posible:</h3>
+        
+                <form>
+                    <p>Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre aquí"></p>
+                    <p>Apellido: <input type="text" name="apellido" placeholder="Ingrese su apellido aquí"></p>
+                    <p>e-mail: <input type="email" required name="email" placeholder="ej: john@doe.com"></p>
+                    <p>Razón de la consulta:</p>
+                        <ul>
+                            <li><input type="radio" name="razonConsulta" value="Precios">Precios</li>
+                            <li><input type="radio" name="razonConsulta" value="Envios">Envios</li>
+                            <li><input type="radio" name="razonConsulta" value="Reclamos">Reclamos</li>
+                        </ul>
+                    <p>Consulta: <textarea name="consulta" cols="30" rows="10" placeholder="Ingrese su consulta aqui"></textarea></p>
+                    <p>Le responderemos a la brevedad al mail provisto, checkée la casilla si está de acuerdo: <input type="checkbox" name="ok" value="ok"></p>
+                    <input class="btn" type="submit" value="Enviar Consulta">
+                    <input class="btn" type="reset" value="Reiniciar Campos">
+                </form>
             </div>
             <div class="zona_2">
-                <img src="../img/chocolaterie1.jpg" alt="Foto del local n° 1">
-                <img src="../img/chocolaterie2.jpg" alt="Foto del local n° 2">
-                <img src="../img/chocolaterie3.jpg" alt="Foto del local n° 3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211.39413002339262!2d-61.21896085538789!3d-32.03390563681345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b58c89d3fd6311%3A0xb0c507e5ee26bdc8!2sCol%C3%B3n%20680%2C%20S2252DMD%20G%C3%A1lvez%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1649027811721!5m2!1sen!2sar" width="450" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
-
-
+    
     <footer>
         <div class="wrapper">
             <p class="leyenda">Pagina realizada por Nicolás Busso como Desafío-02 Curso Coder House.</p>
@@ -51,3 +60,6 @@
         </div>
     </footer>
 
+
+</body>
+</html>
