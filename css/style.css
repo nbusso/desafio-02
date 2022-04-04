@@ -55,7 +55,7 @@ header {
     width: 70%;
     height: 60px;
     margin: 0 auto;
-
+    
 }
 
 .header_nav nav {
@@ -85,8 +85,6 @@ header {
 }
 
 
-
-
 /* body -------------------------------------------------- */
 
 main {
@@ -100,6 +98,9 @@ main {
 
 .bg {
     height: 600px;
+    background-color: #5C3D2E;
+    background-blend-mode: multiply;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -137,25 +138,18 @@ main {
 }
 
 .bg_1 {
-    height: 850px;
-    background-color: #5C3D2E;
+    height: 850px;  
     background-image: url("../img/bg_choco2.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
+
 }
 
 .bg_2 {
-    background-color: #5C3D2E;
     background-image: url("../img/bg_choco1.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
+
 }
 
 .bg_3 {
-    background-color: #5C3D2E;
     background-image: url("../img/bg_choco3.jpg");
-    background-blend-mode: multiply;
-    background-size: cover;
 }
 
 .content { 
